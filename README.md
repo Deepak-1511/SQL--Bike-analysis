@@ -1,18 +1,34 @@
-BIKE ANALYSIS
+## BIKE ANALYSIS
 
-Objective:
+### Summary
 
-Description: Outline the purpose and goals of the IRON MOTORS database.
-Organize Data: Efficiently store and manage data related to bikes, customers, orders, and order details.
-Improve Accessibility: Enable easy retrieval of information through structured queries.
-Support Operations: Facilitate the daily operations of IRON MOTORS by maintaining accurate and up-to-date records.
-Data Analysis: Provide a foundation for analyzing sales, stock, and customer behavior.
+This SQL script creates and manages a database for Iron Motors, focusing on bikes, customers, orders, and order details. It includes table creation, data insertion, and various queries to interact with the database.
 
-Summary:
+### Objective
 
-Description: Recap of key points covered in the presentation.
-Database: IRON_MOTORS
-Tables Created: BIKES, CUSTOMERS, ORDERS, ORDERS_DETAILS
-Data Insertion: Sample entries in each table
-Queries: Retrieve and manipulate data
-Alterations: Renaming columns and tables, adding default values
+The objective of this script is to establish a structured database for Iron Motors to store and manage information about bikes, customers, orders, and order details. It aims to facilitate efficient data management and retrieval to support business operations.
+
+### Purpose
+
+1. **Database Creation and Setup**:
+   - **BIKES Table**: Stores information about the bikes available, including model, brand, price, and stock.
+   - **CUSTOMERS Table**: Contains customer details such as first name, last name, location, and email.
+   - **ORDERS Table**: Records orders placed by customers, linking to the customer and providing order date and total amount.
+   - **ORDERS_DETAILS Table**: Details each order, including the specific bikes ordered, quantities, and prices.
+
+2. **Data Insertion**:
+   - Populate the tables with sample data for bikes, customers, orders, and order details to simulate the database's functionality.
+
+3. **Queries**:
+   - Perform various operations such as listing bikes and customers, retrieving orders and order details, finding customers or bikes by ID, calculating total bikes in stock, determining total sales for specific orders, and more.
+   - Analyze data to find the number of orders placed by each customer, the total quantity of each bike sold, and identify the most expensive bike.
+   - Modify table structures, including renaming columns and tables, and setting default values.
+
+### Key Operations
+
+- **Table Creation**: Establishes the structure of the database.
+- **Data Insertion**: Adds initial data to the database tables.
+- **Data Retrieval**: Queries to fetch and analyze data for business insights.
+- **Table Modification**: Updates table structures and settings to maintain data integrity and meet evolving business needs.
+
+This script provides a comprehensive framework for managing Iron Motors' database, ensuring organized storage, easy access to data, and flexibility for future modifications.
