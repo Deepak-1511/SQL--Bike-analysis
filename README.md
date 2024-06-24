@@ -1,6 +1,6 @@
-BIKE ANALYSIS
+#BIKE ANALYSIS
 
- Objective:
+#Objective:
 
 Description: Outline the purpose and goals of the IRON MOTORS database.
 Organize Data: Efficiently store and manage data related to bikes, customers, orders, and order details.
@@ -8,7 +8,7 @@ Improve Accessibility: Enable easy retrieval of information through structured q
 Support Operations: Facilitate the daily operations of IRON MOTORS by maintaining accurate and up-to-date records.
 Data Analysis: Provide a foundation for analyzing sales, stock, and customer behavior.
 
- Summary:
+#Summary:
 
 Description: Recap of key points covered in the presentation.
 Database: IRON_MOTORS
